@@ -1,3 +1,3 @@
 # Why Program
-
-print("hello world")
+ap=input("enter name")
+print("hello",ap)
