@@ -7,7 +7,7 @@ r=float(rate)
 if h > 40 :
         rg=r*h
         ot=(h-40)*(r*0.5)
-        pay=rg+ot
+        print(rg+ot)
 else:
         print("Pay")
         pay=h*r
