@@ -8,8 +8,13 @@ while True:
 
     if num == "done":
         break
+    try:
+        nu = float(num)
+    except:
+        print ("invalied input")
+        continue  
 
-    # ...
+    
 
     print(num)
 
